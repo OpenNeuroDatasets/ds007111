@@ -1,0 +1,591 @@
+{
+  "participant_id": [
+    {
+      "Description": "A unique participant identifier of the form sub-<label> matching a participant entity found in the dataset",
+      "Units": "-",
+      "AllowedValues": {},
+      "MissingValues": {},
+      "Source": "",
+      "Notes": ""
+    }
+  ],
+  "acqYear1": [
+    {
+      "Description": "Year of first MRI acquisition",
+      "Units": "years",
+      "AllowedValues": "2011–2023",
+      "MissingValues": "blank",
+      "Source": "MRI session metadata, NeuroLingua dataset",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "ImageCount_Basque": [
+    {
+      "Description": "Number of fMRI images acquired during Basque task",
+      "Units": "images",
+      "AllowedValues": {
+        "min": 80,
+        "max": {}
+      },
+      "MissingValues": "blank",
+      "Source": "Task fMRI session for Basque task, NeuroLingua dataset",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "ImageCount_English": [
+    {
+      "Description": "Number of fMRI images acquired during English task",
+      "Units": "images",
+      "AllowedValues": {
+        "min": 80,
+        "max": {}
+      },
+      "MissingValues": "blank",
+      "Source": "Task fMRI session for English task, NeuroLingua dataset",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "ImageCount_Spanish": [
+    {
+      "Description": "Number of fMRI images acquired during Spanish task",
+      "Units": "images",
+      "AllowedValues": {
+        "min": 80,
+        "max": {}
+      },
+      "MissingValues": "blank",
+      "Source": "Task fMRI session for Spanish task, NeuroLingua dataset",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "age.Acq1": [
+    {
+      "Description": "Participant age at first MRI session",
+      "Units": "years",
+      "AllowedValues": {
+        "min": 18,
+        "max": {}
+      },
+      "MissingValues": "blank",
+      "Source": "MRI session metadata, NeuroLingua dataset",
+      "Notes": ""
+    }
+  ],
+  "birthyear": [
+    {
+      "Description": "Calendar year participant was born",
+      "Units": "years",
+      "AllowedValues": {
+        "min": {},
+        "max": 2005
+      },
+      "MissingValues": "blank",
+      "Source": "Participant registration form / demographics",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "educational.attainment": [
+    {
+      "Description": "Highest education level attained",
+      "Units": {},
+      "AllowedValues": ["Primary School", "High School", "Professional Training/Baccalaureate", "University", "Postgraduate"],
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire on education level",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "eduYears": [
+    {
+      "Description": "Approximate years of education, estimated from attainment level and birth year",
+      "Units": "years",
+      "AllowedValues": "6–20",
+      "MissingValues": "blank",
+      "Source": "Self-reported education years, approximated from birth year and Spanish education system",
+      "Notes": ""
+    }
+  ],
+  "gender": [
+    {
+      "Description": "Participant’s self-reported gender",
+      "Units": {},
+      "AllowedValues": ["Female", "Male"],
+      "MissingValues": "blank",
+      "Source": "Self-report demographic questionnaire",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "ehi_1": [
+    {
+      "Description": "Participant’s score on the Edinburgh Handedness Inventory (-100 = left, 100 = right)",
+      "Units": "normalized index",
+      "AllowedValues": {
+        "min": null,
+        "max": null
+      },
+      "MissingValues": "blank",
+      "Source": "Edinburgh Handedness Inventory (Oldfield, 1971)",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "EHI_Writing": [
+    {
+      "Description": "Handedness for writing, from EHI single item",
+      "Units": {},
+      "AllowedValues": ["RH", "LH"],
+      "MissingValues": "blank",
+      "Source": "Edinburgh Handedness Inventory (Oldfield, 1971), writing item",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "handedness": [
+    {
+      "Description": "Participant’s self-reported handedness",
+      "Units": {},
+      "AllowedValues": ["RH", "LH"],
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire on handedness",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "KBIT.composite": [
+    {
+      "Description": "Composite IQ score using Spanish KBIT",
+      "Units": "IQ points",
+      "AllowedValues": "40–160",
+      "MissingValues": "blank",
+      "Source": "Kaufman Brief Intelligence Test (KBIT), Spanish version",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "KBIT.matrices": [
+    {
+      "Description": "Non-verbal matrices subtest score, Spanish KBIT",
+      "Units": "IQ points",
+      "AllowedValues": "40–160",
+      "MissingValues": "blank",
+      "Source": "KBIT non-verbal matrices subtest, Spanish version",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "KBIT.vocabulary": [
+    {
+      "Description": "Verbal vocabulary subtest score, Spanish KBIT",
+      "Units": "IQ points",
+      "AllowedValues": "40–160",
+      "MissingValues": "blank",
+      "Source": "KBIT verbal vocabulary subtest, Spanish version",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "mini.mental": [
+    {
+      "Description": "Score on Spanish MMSE",
+      "Units": "points",
+      "AllowedValues": "0–30",
+      "MissingValues": "blank",
+      "Source": "MMSE, Spanish version",
+      "Notes": "Higher scores = better cognition; missing =blank"
+    }
+  ],
+  "Basque": [
+    {
+      "Description": "Participant’s rank of Basque as first, second, or third language",
+      "Units": {},
+      "AllowedValues": ["L1", "L2", "L3"],
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire on language background",
+      "Notes": ""
+    }
+  ],
+  "English": [
+    {
+      "Description": "Participant’s rank of English as first, second, or third language",
+      "Units": {},
+      "AllowedValues": ["L1", "L2", "L3"],
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire on language background",
+      "Notes": ""
+    }
+  ],
+  "L1": [
+    {
+      "Description": "Participant’s first language(s) based on AoA",
+      "Units": {},
+      "AllowedValues": ["L1", "L2", "L3"],
+      "MissingValues": "blank",
+      "Source": "Derived from self-reported AoA and language background",
+      "Notes": ""
+    }
+  ],
+  "Spanish": [
+    {
+      "Description": "Participant’s rank of Spanish as first, second, or third language",
+      "Units": {},
+      "AllowedValues": ["L1", "L2", "L3"],
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire on language background",
+      "Notes": ""
+    }
+  ],
+  "AoA.Self_Basque": [
+    {
+      "Description": "Self-reported age when participant was first exposed to Basque",
+      "Units": "years",
+      "AllowedValues": {
+        "min": 0,
+        "max": {}
+      },
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire on Basque Age of Acquisition",
+      "Notes": ""
+    }
+  ],
+  "AoA.Self_English": [
+    {
+      "Description": "Self-reported age when participant was first exposed to English",
+      "Units": "years",
+      "AllowedValues": {
+        "min": 0,
+        "max": {}
+      },
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire on English Age of Acquisition",
+      "Notes": ""
+    }
+  ],
+  "AoA.Self_Spanish": [
+    {
+      "Description": "Self-reported age when participant was first exposed to Spanish",
+      "Units": "years",
+      "AllowedValues": {
+        "min": 0,
+        "max": {}
+      },
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire on Spanish Age of Acquisition",
+      "Notes": ""
+    }
+  ],
+  "DiffEsEu.AoA": [
+    {
+      "Description": "Normalized difference in AoA between Spanish and Basque (-1 to 1), negative = Basque < Spanish, positive = Spanish < Basque",
+      "Units": "normalized index",
+      "AllowedValues": {
+        "min": null,
+        "max": null
+      },
+      "MissingValues": "blank",
+      "Source": "Computed from AoA.Self_Spanish and AoA.Self_Basque",
+      "Notes": "Normalized by max absolute difference (capped at 18 years)"
+    }
+  ],
+  "DiffEsEu.Exposure": [
+    {
+      "Description": "Normalized difference in language exposure between Spanish and Basque (-1 to 1), negative = Basque > Spanish, positive = Spanish > Basque",
+      "Units": "normalized index",
+      "AllowedValues": {
+        "min": null,
+        "max": null
+      },
+      "MissingValues": "blank",
+      "Source": "Computed from Exposure.Self.Spanish_Perc.mean and Exposure.Self.Basque_Perc.mean",
+      "Notes": "Normalized by maximum possible difference"
+    }
+  ],
+  "Exposure.Self.Basque": [
+    {
+      "Description": "Self-reported categorical exposure to Basque (<50% or >50%)",
+      "Units": {},
+      "AllowedValues": ["<50", ">50"],
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire on Basque language exposure",
+      "Notes": ""
+    }
+  ],
+  "Exposure.Self.Basque_Perc.mean": [
+    {
+      "Description": "Mean percentage of exposure to Basque across reading, writing, speaking, and hearing",
+      "Units": "%",
+      "AllowedValues": "0–100",
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "Exposure.Self.English": [
+    {
+      "Description": "Self-reported categorical exposure to English (<50% or >50%)",
+      "Units": {},
+      "AllowedValues": ["<50", ">50"],
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire on English language exposure",
+      "Notes": ""
+    }
+  ],
+  "Exposure.Self.English_Perc.mean": [
+    {
+      "Description": "Mean percentage of exposure to English across reading, writing, speaking, and hearing",
+      "Units": "%",
+      "AllowedValues": "0–100",
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "Exposure.Self.L1_Perc.mean": [
+    {
+      "Description": "Mean percentage of exposure to first language across modalities",
+      "Units": "%",
+      "AllowedValues": "0–100",
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "Exposure.Self.Spanish": [
+    {
+      "Description": "Self-reported categorical exposure to Spanish (<50% or >50%)",
+      "Units": {},
+      "AllowedValues": ["<50", ">50"],
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire on Spanish language exposure",
+      "Notes": ""
+    }
+  ],
+  "Exposure.Self.Spanish_Perc.mean": [
+    {
+      "Description": "Mean percentage of exposure to Spanish across reading, writing, speaking, and hearing",
+      "Units": "%",
+      "AllowedValues": "0–100",
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire",
+      "Notes": "Missing values indicated by blank"
+    }
+  ],
+  "DiffEsEu.Proficiency": [
+    {
+      "Description": "Normalized difference in language proficiency between Spanish and Basque (-1 to 1), negative = Basque > Spanish, positive = Spanish > Basque",
+      "Units": "normalized index",
+      "AllowedValues": {
+        "min": null,
+        "max": null
+      },
+      "MissingValues": "blank",
+      "Source": "Computed from Proficiency.Composite.Spanish and Proficiency.Composite.Basque",
+      "Notes": "Normalized by maximum possible difference"
+    }
+  ],
+  "Proficiency.BEST65.Score_Basque": [
+    {
+      "Description": "% correct on Basque picture naming",
+      "Units": "%",
+      "AllowedValues": "0–100",
+      "MissingValues": "blank",
+      "Source": "Basque picture naming part of the BEST (de Bruin, Carreiras & Duñabietia, 2017)",
+      "Notes": "65 items; missing =blank"
+    }
+  ],
+  "Proficiency.BEST65.Score_English": [
+    {
+      "Description": "% correct on English picture naming",
+      "Units": "%",
+      "AllowedValues": "0–100",
+      "MissingValues": "blank",
+      "Source": "English picture naming part of the BEST (de Bruin, Carreiras & Duñabietia, 2017)",
+      "Notes": "65 items; missing =blank"
+    }
+  ],
+  "Proficiency.BEST65.Score_Spanish": [
+    {
+      "Description": "% correct on Spanish picture naming",
+      "Units": "%",
+      "AllowedValues": "0–100",
+      "MissingValues": "blank",
+      "Source": "Spanish picture naming part of the BEST (de Bruin, Carreiras & Duñabietia, 2017)",
+      "Notes": "65 items; missing =blank"
+    }
+  ],
+  "Proficiency.Composite.Basque": [
+    {
+      "Description": "Normalized mean across all Basque proficiency measures",
+      "Units": "normalized index",
+      "AllowedValues": "0–100",
+      "MissingValues": "blank",
+      "Source": "Computed from all available",
+      "Notes": ""
+    }
+  ],
+  "Proficiency.Composite.English": [
+    {
+      "Description": "Normalized mean across all English proficiency measures",
+      "Units": "normalized index",
+      "AllowedValues": "0–100",
+      "MissingValues": "blank",
+      "Source": "Computed from all available",
+      "Notes": ""
+    }
+  ],
+  "Proficiency.Composite.Spanish": [
+    {
+      "Description": "Normalized mean across all Spanish proficiency measures",
+      "Units": "normalized index",
+      "AllowedValues": "0–100",
+      "MissingValues": "blank",
+      "Source": "Computed from all available",
+      "Notes": ""
+    }
+  ],
+  "Proficiency.Interview_Basque": [
+    {
+      "Description": "Normalized score across interview types to a common scale.",
+      "Units": "normalized index",
+      "AllowedValues": "0–10",
+      "MissingValues": "blank",
+      "Source": "Basque Interview score derived from: - Score on the Basque language competence interview part of the BEST (de Bruin, Carreiras & Duñabietia, 2017); interview score",
+      "Notes": "BEST interview originally had 13 levels coded as: -1,1,+1, -2,2,+2, -3,3,+3, -4,4,+4, 5; transformed into a common 0-10 scale."
+    }
+  ],
+  "Proficiency.Interview_English": [
+    {
+      "Description": "Normalized score across interview types to a common scale.",
+      "Units": "normalized index",
+      "AllowedValues": "0–10",
+      "MissingValues": "blank",
+      "Source": "English Interview score derived from: Score on the Basque language competence interview part of the BEST (de Bruin, Carreiras & Duñabietia, 2017); interview score",
+      "Notes": "BEST interview originally had 13 levels coded as: -1,1,+1, -2,2,+2, -3,3,+3, -4,4,+4, 5; transformed into a common 0-10 scale."
+    }
+  ],
+  "Proficiency.Interview_Spanish": [
+    {
+      "Description": "Normalized score across interview types to a common scale.",
+      "Units": "normalized index",
+      "AllowedValues": "0–10",
+      "MissingValues": "blank",
+      "Source": "Spanish Interview score derived from: Score on the Basque language competence interview part of the BEST (de Bruin, Carreiras & Duñabietia, 2017); interview score",
+      "Notes": "BEST interview originally had 13 levels coded as: -1,1,+1, -2,2,+2, -3,3,+3, -4,4,+4, 5; transformed into a common 0-10 scale."
+    }
+  ],
+  "Proficiency.LextalePerc.Score_Basque": [
+    {
+      "Description": "% correct on Basque picture naming",
+      "Units": "%",
+      "AllowedValues": "0–100",
+      "MissingValues": "blank",
+      "Source": "Basque version of Lextale lexical decision task (de Bruin, Carreiras & Duñabietia, 2017)",
+      "Notes": ""
+    }
+  ],
+  "Proficiency.LextalePerc.Score_English": [
+    {
+      "Description": "% correct on English picture naming",
+      "Units": "%",
+      "AllowedValues": "0–100",
+      "MissingValues": "blank",
+      "Source": "English version of Lextale lexical decision task (Lemhöfer & Broersma, 2012)",
+      "Notes": ""
+    }
+  ],
+  "Proficiency.LextalePerc.Score_Spanish": [
+    {
+      "Description": "% correct on Spanish picture naming",
+      "Units": "%",
+      "AllowedValues": "0–100",
+      "MissingValues": "blank",
+      "Source": "Spanish version of Lextale lexical decision task (Izura, Coetos & Brysbaert, 2014)",
+      "Notes": ""
+    }
+  ],
+  "Proficiency.Self.Basque": [
+    {
+      "Description": "Computed as mean across separate ratings for reading, writing, speaking and comprehension OR as global measure.",
+      "Units": "normalized index",
+      "AllowedValues": "1–10",
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire",
+      "Notes": ""
+    }
+  ],
+  "Proficiency.Self.English": [
+    {
+      "Description": "Computed as mean across separate ratings for reading, writing, speaking and comprehension OR as global measure.",
+      "Units": "normalized index",
+      "AllowedValues": "1–10",
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire",
+      "Notes": ""
+    }
+  ],
+  "Proficiency.Self.Spanish": [
+    {
+      "Description": "Computed as mean across separate ratings for reading, writing, speaking and comprehension OR as global measure.",
+      "Units": "normalized index",
+      "AllowedValues": "1–10",
+      "MissingValues": "blank",
+      "Source": "Self-report questionnaire",
+      "Notes": ""
+    }
+  ],
+  "bilingualism": [
+    {
+      "Description": "Indicates whether participant is monolingual or bilingual/multilingual",
+      "Units": {},
+      "AllowedValues": ["Bilingual", "Monolingual"],
+      "MissingValues": "blank",
+      "Source": "Derived from self-reported L1/L2/L3 and number of languages",
+      "Notes": "derived from L1/L2/L3"
+    }
+  ],
+  "IndexBilingEsEu.composite": [
+    {
+      "Description": "Average of normalized differences for AoA, Exposure, and Proficiency (Spanish–Basque)",
+      "Units": "normalized index",
+      "AllowedValues": {
+        "min": null,
+        "max": null
+      },
+      "MissingValues": "blank",
+      "Source": "Computed from DiffEsEu.AoA, DiffEsEu.Exposure, DiffEsEu.Proficiency",
+      "Notes": "0 = balanced, negative = Basque-dominant, positive = Spanish-dominant"
+    }
+  ],
+  "IndexTriLingA": [
+    {
+      "Description": "Trilingual index (Basque, Spanish, English), average of mean AoA, Exposure, Proficiency × (number of languages - 1)",
+      "Units": "normalized index",
+      "AllowedValues": "0–2",
+      "MissingValues": "blank",
+      "Source": "Computed from mean AoA, Exposure, Proficiency across Basque, Spanish, English",
+      "Notes": "0 = Monolingual, 1 = two languages, 2 = three languages"
+    }
+  ],
+  "IndexTriLingB": [
+    {
+      "Description": "Trilingual index (Basque, Spanish, English), average of mean AoA, Exposure, Proficiency × number of languages",
+      "Units": "normalized index",
+      "AllowedValues": "0–3",
+      "MissingValues": "blank",
+      "Source": "Computed from mean AoA, Exposure, Proficiency across Basque, Spanish, English",
+      "Notes": "0 = no languages, 1 = Monolingual, 2 = two languages, 3 = three languages"
+    }
+  ],
+  "Lang.N": [
+    {
+      "Description": "Number of languages participant knows",
+      "Units": {},
+      "AllowedValues": ["1", "2", ">2"],
+      "MissingValues": "blank",
+      "Source": "Computed from L1/L2/L3 data",
+      "Notes": ""
+    }
+  ],
+  "LingEnv.Self_Perc.multiling": [
+    {
+      "Description": "Percentage of time spent in multilingual context",
+      "Units": "%",
+      "AllowedValues": "0–100",
+      "MissingValues": "blank",
+      "Source": "Computed from self-reported bilingual/trilingual context",
+      "Notes": ""
+    }
+  ]
+}
