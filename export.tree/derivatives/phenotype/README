@@ -1,0 +1,27 @@
+NeuroLingua Phenotypic Dataset
+===============================
+
+This derivative dataset contains curated participant-level phenotypic data collected and harmonized from multiple NeuroLingua-related studies. It includes demographic, cognitive, language history, and language proficiency measures.
+
+Dataset Structure
+-----------------
+- `participants.tsv` : Tab-separated file containing participant IDs and phenotypic variables.
+- `participants.json` : JSON sidecar providing descriptions, units, allowed values, and missing value codes for each column in `participants.tsv`.
+
+Notes
+-----
+- This dataset is a derivative and does not include imaging data or raw participant directories (`sub-*` folders).
+- Missing values in `participants.tsv` are indicated as `blank`.
+- All numeric ranges, categorical values, and units are documented in `participants.json`.
+
+Sources
+-------
+The data were aggregated from multiple NeuroLingua studies. Each variable's `Source` field in `participants.json` specifies the origin of the data.
+
+Acknowledgements
+----------------
+Please cite the NeuroLingua dataset and related publications if using this dataset. For details, see `dataset_description.json`.
+
+License
+-------
+This dataset is licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/), unless otherwise specified.
