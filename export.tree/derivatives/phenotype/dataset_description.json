@@ -1,0 +1,39 @@
+{
+  "Name": "NeuroLingua Phenotypic Dataset",
+  "BIDSVersion": "1.7.0",
+  "DatasetType": "derivative",
+  "Authors":[
+	"Ileana Quinones",
+	"Amaia Carrion-Castillo",
+	"Inigo Diez-Zabala",
+	"Laura de Frutos-Sagastuy",
+	"Brendan Costello",
+	"David Carcedo",
+	"Lucia Manso-Ortega",
+	"Maksim Slivka",
+	"Abraham Sanchez",
+	"Anique Schuller",
+	"Cesar Caballero-Gaudes",
+	"Pedro Paz-Alonso",
+	"Manuel Carreiras"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "NeuroLingua pipeline",
+      "Description": "Curation of phenotypic data (demographic, cognitive, language history, and proficiency measures) into BIDS-compatible participants.tsv and participants.json",
+      "CodeURL": "https://osf.io/b6ur5/"
+    },
+    {
+      "Name": "Manual curation",
+      "Description": "Dataset was created by harmonizing multiple study-specific datasets into a unified phenotypic table.",
+      "CodeURL": "N/A"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "Description": "Collection of participant-level demographic, cognitive, language, and MRI metadata aggregated from multiple NeuroLingua-related studies."
+    }
+  ],
+  "License":"CC-BY-4.0 license",
+  "HowToAcknowledge": "Please cite NeuroLingua dataset and related publications."
+}
