@@ -1,0 +1,8 @@
+{
+  "filename": {
+    "Description": "Relative path and filename of the acquired scan."
+  },
+  "AcquisitionDateTime": {
+    "Description": "Acquisition date and time."
+  }
+}
