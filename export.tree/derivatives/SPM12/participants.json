@@ -1,0 +1,36 @@
+{
+    "participant_id": {
+        "Description": "A unique participant identifier of the form sub-<label> matching a participant entity found in the dataset"
+    },
+    "species": {
+	"Description": "The species name from the NCBI Taxonomy",
+        "Levels": {
+            "HS": "homo sapiens"
+        }
+    },
+    "age": {
+        "Description": "Age of the participant at first acquisition",
+        "Units": "year"
+    },
+    "sex": {
+        "Description": "Biological sex as reported by the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "handedness": {
+        "Description": "Handedness of the participant as reported by the participant",
+        "Levels": {
+            "LH": "left-handed",
+            "RH": "right-handed",
+            "NA": "missing values"
+        }
+    },
+    "Functional_Task": {
+        "Description":"Experimental task performed by participants during the recording session.",
+        "Levels":{
+            "PINEL":"Participants who took part in the PINEL project"
+        }
+    }
+}
